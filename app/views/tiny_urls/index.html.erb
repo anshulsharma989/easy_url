@@ -1,0 +1,25 @@
+<p id="notice"><%= notice %></p>
+
+<h1>Tiny Urls</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @tiny_urls.each do |tiny_url| %>
+      <tr>
+        <td><%= link_to 'Show', tiny_url %></td>
+        <td><%= link_to 'Edit', edit_tiny_url_path(tiny_url) %></td>
+        <td><%= link_to 'Destroy', tiny_url, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Tiny Url', new_tiny_url_path %>

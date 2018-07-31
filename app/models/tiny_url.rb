@@ -1,0 +1,2 @@
+class TinyUrl < ApplicationRecord
+end
