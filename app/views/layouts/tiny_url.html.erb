@@ -1,27 +1,31 @@
 <!DOCTYPE HTML>
 <html>
   <head>
-    <title>Projection by TEMPLATED</title>
+    <title>Easy Url</title>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <base href="/home">
     <%= stylesheet_link_tag "//code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css" %>
     <%= stylesheet_link_tag "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" %>
-    <%= stylesheet_link_tag 'main', media: 'all', 'data-turbolinks-track' => true %>
+    <%= stylesheet_link_tag :application %>
+    <%= stylesheet_link_tag 'main'%>
     <%= yield :page_level_style %>
     <%= javascript_include_tag :application %>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/skel/3.0.1/skel.min.js"></script>
   </head>
   <body>
     <!-- Header -->
     <header id="header">
       <div class="inner">
-        <a href="index.html" class="logo"><strong>Projection</strong> by TEMPLATED</a>
+        <%= link_to raw("<strong>Projection</strong> by TEMPLATED"), home_path, class:"logo" %>
         <nav id="nav">
           <%= link_to "Home", home_path %>
         </nav>
         <a href="#navPanel" class="navPanelToggle"><span class="fa fa-bars"></span></a>
       </div>
+      <% flash.each do |key, value| %>
+        <div class="notice-div alert alert-<%= key %>"><%= value %></div>
+      <% end %>
     </header>
     <!-- Banner -->
     <section id="banner">
@@ -47,7 +51,7 @@
           </div>
         </div>
         <footer>
-          <a href="#" class="button">Get Started</a>
+          <a href="#" class="button" id="get_start_button">Get Started</a>
         </footer>
       </div>
     </section>
@@ -93,7 +97,7 @@
     <footer id="footer">
       <div class="inner">
         <h3>Get in touch</h3>
-        <form action="#" method="get">
+        <div>
           <div class="field half first">
             <label for="name">Name</label>
             <input name="name" id="name" type="text" placeholder="Name">
@@ -109,13 +113,14 @@
           <ul class="actions">
             <li><input value="Send Message" class="button alt" type="submit"></li>
           </ul>
-        </form>
+        </div>
         <div class="copyright">
           &copy; Untitled. Design: <a href="https://templated.co">TEMPLATED</a>. Images: <a href="https://unsplash.com">Unsplash</a>.
         </div>
       </div>
     </footer>
     <!-- Scripts -->
+    <%= javascript_include_tag "skel.min.js" %>
     <%= javascript_include_tag "util" %>
     <%= javascript_include_tag "main" %>
     <%= yield :page_level_script %>

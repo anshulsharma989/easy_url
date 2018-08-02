@@ -39,10 +39,16 @@ class TinyUrlsController < ApplicationController
   end
 
   def get_orginal_url
-    decoded_url = get_decoded_url
-    url_id = get_url_id(decoded_url)
-    @tiny_url = TinyUrl.find(url_id)
-    redirect_to @tiny_url.orginal_url
+    begin
+      decoded_url = get_decoded_url
+      url_id = get_url_id(decoded_url)
+      @tiny_url = TinyUrl.find(url_id)
+      redirect_to @tiny_url.orginal_url
+    rescue Exception => e
+      flash[:danger] = "Url not found"
+      redirect_to home_path
+    end
+
   end
 
   private

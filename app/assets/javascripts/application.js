@@ -16,3 +16,10 @@
 //= require turbolinks
 //= require_tree .
 
+$(document).ready(function(){
+  $("#get_start_button").click(function() {
+    $('html, body').animate({
+        scrollTop: $("#three").offset().top
+    }, 2000);
+});
+})

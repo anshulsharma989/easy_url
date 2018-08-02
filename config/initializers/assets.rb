@@ -14,10 +14,11 @@ Rails.application.config.assets.paths << Rails.root.join('node_modules')
 Rails.application.config.assets.precompile +=
 %w(
 application.js
+skel.min.js
 cable.js
 main.js
 util.js
-application.css
+application.scss
 main.css
 scaffolds.scss
 tiny_urls.scss
