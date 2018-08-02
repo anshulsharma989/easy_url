@@ -1,13 +1,21 @@
 <section id="three" class="wrapper align-center">
+  <div id="easy-url-error" class="add-crud-edit-errors">
+  </div>
   <div class="inner">
-    <form action="#" method="get">
+    <%= form_for @tiny_url, :url =>get_tiny_url_path, :method => 'post', :remote => true, :authenticity_token => true do |f|%>
       <div class="field half first">
-        <input name="name" id="name" type="text" placeholder="Enter Long Url">
+        <%= f.text_field :orginal_url, placeholder: "Paste Here Your Long Url", :required => true%>
       </div>
       <ul class="actions">
-        <li><input value="Send Message" class="button alt" type="submit">
-        </li>
+        <footer>
+          <%= submit_tag(value = "Get Easy Url") %>
+        </footer>
       </ul>
-    </form>
+    <% end %>
+    <div id="easy-url-div" class="">
+    </div>
   </div>
 </section>
+<% content_for :page_level_script do %>
+  <%= javascript_include_tag 'tiny_url' %>
+<% end %>

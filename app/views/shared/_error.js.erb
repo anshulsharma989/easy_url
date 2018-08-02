@@ -1,0 +1,11 @@
+$(".add-crud-edit-errors").empty();
+$('<div>', {
+    id: 'error_explanation_edit'
+}).append($('<div>', {
+    id: 'error-edit-inner-div',
+    class: "alert alert-danger"
+})).appendTo('.add-crud-edit-errors');
+var list = $("#error-edit-inner-div").append('<ul></ul>').find('ul');
+<% obj.errors.full_messages.each do |msg| %>
+list.append("<h4 class='text-for-errors'><%= msg.humanize %></h4>");
+<% end %>

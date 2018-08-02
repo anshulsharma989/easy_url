@@ -22,4 +22,5 @@ main.css
 scaffolds.scss
 tiny_urls.scss
 images
+tiny_url
 )

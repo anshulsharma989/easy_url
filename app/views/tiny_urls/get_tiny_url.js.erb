@@ -1,0 +1,5 @@
+<% if @tiny_url.errors.any?%>
+  <%= render partial: "shared/error", locals: {obj: @tiny_url} %>
+<% else %>
+$('#easy-url-div').html("<%= escape_javascript render(:partial => 'tiny_urls/partials/easy_url', :locals => { :full_url => @full_url}) %>");
+<% end %>

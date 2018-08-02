@@ -1,4 +1,4 @@
-@charset "UTF-8";
+
 @import url(font-awesome.min.css);
 @import "https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600";
 
@@ -2983,14 +2983,6 @@
 		#tiny_url_orginal_url{
 			color: #000000;
 			background-color: #ffffff;
-		}
-
-		.easy-url-span{
-			font-size: 22px;
-		}
-
-		.text-for-errors{
-			color: #a94442;
 		}
 
 			#banner .flex div {
