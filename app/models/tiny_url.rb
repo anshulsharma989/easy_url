@@ -1,9 +1,10 @@
 class TinyUrl < ApplicationRecord
   include Decodable
   validates :orginal_url, :format => URI::regexp(%w(http https))
+  after_find :add_last_hit
   after_create :set_decode_url
 
-  def set_last_hit
+  def add_last_hit
     self.last_hit = Time.now.strftime("%d/%m/%Y %H:%M")
     self.save
   end
