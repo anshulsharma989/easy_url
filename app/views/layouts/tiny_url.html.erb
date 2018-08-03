@@ -4,14 +4,12 @@
     <title>Easy Url</title>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <base href="/home">
-    <%= stylesheet_link_tag "//code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css" %>
-    <%= stylesheet_link_tag "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" %>
-    <%= stylesheet_link_tag :application %>
-    <%= stylesheet_link_tag 'main'%>
+    <%= stylesheet_link_tag :application, media: 'all', 'data-turbolinks-track' => true %>
+    <%= stylesheet_link_tag :main, media: 'all', 'data-turbolinks-track' => true %>
     <%= yield :page_level_style %>
+    <!-- Scripts -->
     <%= javascript_include_tag :application %>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <%= yield :page_level_script %>
   </head>
   <body>
     <!-- Header -->
@@ -119,10 +117,5 @@
         </div>
       </div>
     </footer>
-    <!-- Scripts -->
-    <%= javascript_include_tag "skel.min.js" %>
-    <%= javascript_include_tag "util" %>
-    <%= javascript_include_tag "main" %>
-    <%= yield :page_level_script %>
   </body>
 </html>

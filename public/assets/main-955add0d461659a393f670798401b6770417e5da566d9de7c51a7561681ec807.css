@@ -1,0 +1,3593 @@
+@charset "UTF-8";
+@import "https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600";
+/*
+	Projection by TEMPLATED
+	templated.co @templatedco
+	Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
+*/
+/* Reset */
+/* line 12, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* line 21, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+/* line 25, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+body {
+  line-height: 1;
+}
+
+/* line 29, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 33, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+blockquote, q {
+  quotes: none;
+}
+
+/* line 37, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+blockquote:before, blockquote:after, q:before, q:after {
+  content: '';
+  content: none;
+}
+
+/* line 42, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 47, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+body {
+  -webkit-text-size-adjust: none;
+}
+
+/* Box Model */
+/* line 53, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+*, *:before, *:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/* Containers */
+/* line 61, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+.container {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* line 66, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+.container.\31 25\25 {
+  width: 100%;
+  max-width: 100em;
+  min-width: 80em;
+}
+
+/* line 72, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+.container.\37 5\25 {
+  width: 60em;
+}
+
+/* line 76, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+.container.\35 0\25 {
+  width: 40em;
+}
+
+/* line 80, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+.container.\32 5\25 {
+  width: 20em;
+}
+
+/* line 84, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+.container {
+  width: 80em;
+}
+
+@media screen and (max-width: 1680px) {
+  /* line 90, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+  .container.\31 25\25 {
+    width: 100%;
+    max-width: 100em;
+    min-width: 80em;
+  }
+
+  /* line 96, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+  .container.\37 5\25 {
+    width: 60em;
+  }
+
+  /* line 100, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+  .container.\35 0\25 {
+    width: 40em;
+  }
+
+  /* line 104, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+  .container.\32 5\25 {
+    width: 20em;
+  }
+
+  /* line 108, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+  .container {
+    width: 80em;
+  }
+}
+@media screen and (max-width: 1280px) {
+  /* line 116, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+  .container.\31 25\25 {
+    width: 100%;
+    max-width: 81.25em;
+    min-width: 65em;
+  }
+
+  /* line 122, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+  .container.\37 5\25 {
+    width: 48.75em;
+  }
+
+  /* line 126, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+  .container.\35 0\25 {
+    width: 32.5em;
+  }
+
+  /* line 130, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+  .container.\32 5\25 {
+    width: 16.25em;
+  }
+
+  /* line 134, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+  .container {
+    width: 65em;
+  }
+}
+@media screen and (max-width: 980px) {
+  /* line 142, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+  .container.\31 25\25 {
+    width: 100%;
+    max-width: 112.5%;
+    min-width: 90%;
+  }
+
+  /* line 148, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+  .container.\37 5\25 {
+    width: 67.5%;
+  }
+
+  /* line 152, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+  .container.\35 0\25 {
+    width: 45%;
+  }
+
+  /* line 156, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+  .container.\32 5\25 {
+    width: 22.5%;
+  }
+
+  /* line 160, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+  .container {
+    width: 90%;
+  }
+}
+@media screen and (max-width: 736px) {
+  /* line 168, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+  .container.\31 25\25 {
+    width: 100%;
+    max-width: 112.5%;
+    min-width: 90%;
+  }
+
+  /* line 174, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+  .container.\37 5\25 {
+    width: 67.5%;
+  }
+
+  /* line 178, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+  .container.\35 0\25 {
+    width: 45%;
+  }
+
+  /* line 182, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+  .container.\32 5\25 {
+    width: 22.5%;
+  }
+
+  /* line 186, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+  .container {
+    width: 90% !important;
+  }
+}
+@media screen and (max-width: 480px) {
+  /* line 194, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+  .container.\31 25\25 {
+    width: 100%;
+    max-width: 112.5%;
+    min-width: 90%;
+  }
+
+  /* line 200, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+  .container.\37 5\25 {
+    width: 67.5%;
+  }
+
+  /* line 204, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+  .container.\35 0\25 {
+    width: 45%;
+  }
+
+  /* line 208, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+  .container.\32 5\25 {
+    width: 22.5%;
+  }
+
+  /* line 212, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+  .container {
+    width: 90% !important;
+  }
+}
+/* Grid */
+/* line 220, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+.row {
+  border-bottom: solid 1px transparent;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/* line 227, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+.row > * {
+  float: left;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/* line 234, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+.row:after, .row:before {
+  content: '';
+  display: block;
+  clear: both;
+  height: 0;
+}
+
+/* line 241, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+.row.uniform > * > :first-child {
+  margin-top: 0;
+}
+
+/* line 245, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+.row.uniform > * > :last-child {
+  margin-bottom: 0;
+}
+
+/* line 249, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+.row.\30 \25  > * {
+  padding: 0 0 0 0em;
+}
+
+/* line 253, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+.row.\30 \25 {
+  margin: 0 0 -1px 0em;
+}
+
+/* line 257, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+.row.uniform.\30 \25  > * {
+  padding: 0em 0 0 0em;
+}
+
+/* line 261, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+.row.uniform.\30 \25 {
+  margin: 0em 0 -1px 0em;
+}
+
+/* line 265, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+.row > * {
+  padding: 0 0 0 2em;
+}
+
+/* line 269, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+.row {
+  margin: 0 0 -1px -2em;
+}
+
+/* line 273, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+.row.uniform > * {
+  padding: 2em 0 0 2em;
+}
+
+/* line 277, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+.row.uniform {
+  margin: -2em 0 -1px -2em;
+}
+
+/* line 281, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+.row.\32 00\25  > * {
+  padding: 0 0 0 4em;
+}
+
+/* line 285, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+.row.\32 00\25 {
+  margin: 0 0 -1px -4em;
+}
+
+/* line 289, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+.row.uniform.\32 00\25  > * {
+  padding: 4em 0 0 4em;
+}
+
+/* line 293, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+.row.uniform.\32 00\25 {
+  margin: -4em 0 -1px -4em;
+}
+
+/* line 297, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+.row.\31 50\25  > * {
+  padding: 0 0 0 3em;
+}
+
+/* line 301, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+.row.\31 50\25 {
+  margin: 0 0 -1px -3em;
+}
+
+/* line 305, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+.row.uniform.\31 50\25  > * {
+  padding: 3em 0 0 3em;
+}
+
+/* line 309, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+.row.uniform.\31 50\25 {
+  margin: -3em 0 -1px -3em;
+}
+
+/* line 313, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+.row.\35 0\25  > * {
+  padding: 0 0 0 1em;
+}
+
+/* line 317, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+.row.\35 0\25 {
+  margin: 0 0 -1px -1em;
+}
+
+/* line 321, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+.row.uniform.\35 0\25  > * {
+  padding: 1em 0 0 1em;
+}
+
+/* line 325, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+.row.uniform.\35 0\25 {
+  margin: -1em 0 -1px -1em;
+}
+
+/* line 329, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+.row.\32 5\25  > * {
+  padding: 0 0 0 0.5em;
+}
+
+/* line 333, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+.row.\32 5\25 {
+  margin: 0 0 -1px -0.5em;
+}
+
+/* line 337, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+.row.uniform.\32 5\25  > * {
+  padding: 0.5em 0 0 0.5em;
+}
+
+/* line 341, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+.row.uniform.\32 5\25 {
+  margin: -0.5em 0 -1px -0.5em;
+}
+
+/* line 345, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+.\31 2u, .\31 2u\24 {
+  width: 100%;
+  clear: none;
+  margin-left: 0;
+}
+
+/* line 351, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+.\31 1u, .\31 1u\24 {
+  width: 91.6666666667%;
+  clear: none;
+  margin-left: 0;
+}
+
+/* line 357, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+.\31 0u, .\31 0u\24 {
+  width: 83.3333333333%;
+  clear: none;
+  margin-left: 0;
+}
+
+/* line 363, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+.\39 u, .\39 u\24 {
+  width: 75%;
+  clear: none;
+  margin-left: 0;
+}
+
+/* line 369, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+.\38 u, .\38 u\24 {
+  width: 66.6666666667%;
+  clear: none;
+  margin-left: 0;
+}
+
+/* line 375, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+.\37 u, .\37 u\24 {
+  width: 58.3333333333%;
+  clear: none;
+  margin-left: 0;
+}
+
+/* line 381, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+.\36 u, .\36 u\24 {
+  width: 50%;
+  clear: none;
+  margin-left: 0;
+}
+
+/* line 387, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+.\35 u, .\35 u\24 {
+  width: 41.6666666667%;
+  clear: none;
+  margin-left: 0;
+}
+
+/* line 393, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+.\34 u, .\34 u\24 {
+  width: 33.3333333333%;
+  clear: none;
+  margin-left: 0;
+}
+
+/* line 399, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+.\33 u, .\33 u\24 {
+  width: 25%;
+  clear: none;
+  margin-left: 0;
+}
+
+/* line 405, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+.\32 u, .\32 u\24 {
+  width: 16.6666666667%;
+  clear: none;
+  margin-left: 0;
+}
+
+/* line 411, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+.\31 u, .\31 u\24 {
+  width: 8.3333333333%;
+  clear: none;
+  margin-left: 0;
+}
+
+/* line 417, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+.\31 2u\24  + *,
+.\31 1u\24  + *,
+.\31 0u\24  + *,
+.\39 u\24  + *,
+.\38 u\24  + *,
+.\37 u\24  + *,
+.\36 u\24  + *,
+.\35 u\24  + *,
+.\34 u\24  + *,
+.\33 u\24  + *,
+.\32 u\24  + *,
+.\31 u\24  + * {
+  clear: left;
+}
+
+/* line 432, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+.\-11u {
+  margin-left: 91.66667%;
+}
+
+/* line 436, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+.\-10u {
+  margin-left: 83.33333%;
+}
+
+/* line 440, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+.\-9u {
+  margin-left: 75%;
+}
+
+/* line 444, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+.\-8u {
+  margin-left: 66.66667%;
+}
+
+/* line 448, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+.\-7u {
+  margin-left: 58.33333%;
+}
+
+/* line 452, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+.\-6u {
+  margin-left: 50%;
+}
+
+/* line 456, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+.\-5u {
+  margin-left: 41.66667%;
+}
+
+/* line 460, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+.\-4u {
+  margin-left: 33.33333%;
+}
+
+/* line 464, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+.\-3u {
+  margin-left: 25%;
+}
+
+/* line 468, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+.\-2u {
+  margin-left: 16.66667%;
+}
+
+/* line 472, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+.\-1u {
+  margin-left: 8.33333%;
+}
+
+@media screen and (max-width: 1680px) {
+  /* line 478, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+  .row > * {
+    padding: 0 0 0 2em;
+  }
+
+  /* line 482, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+  .row {
+    margin: 0 0 -1px -2em;
+  }
+
+  /* line 486, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+  .row.uniform > * {
+    padding: 2em 0 0 2em;
+  }
+
+  /* line 490, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+  .row.uniform {
+    margin: -2em 0 -1px -2em;
+  }
+
+  /* line 494, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+  .row.\32 00\25  > * {
+    padding: 0 0 0 4em;
+  }
+
+  /* line 498, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+  .row.\32 00\25 {
+    margin: 0 0 -1px -4em;
+  }
+
+  /* line 502, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+  .row.uniform.\32 00\25  > * {
+    padding: 4em 0 0 4em;
+  }
+
+  /* line 506, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+  .row.uniform.\32 00\25 {
+    margin: -4em 0 -1px -4em;
+  }
+
+  /* line 510, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+  .row.\31 50\25  > * {
+    padding: 0 0 0 3em;
+  }
+
+  /* line 514, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+  .row.\31 50\25 {
+    margin: 0 0 -1px -3em;
+  }
+
+  /* line 518, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+  .row.uniform.\31 50\25  > * {
+    padding: 3em 0 0 3em;
+  }
+
+  /* line 522, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+  .row.uniform.\31 50\25 {
+    margin: -3em 0 -1px -3em;
+  }
+
+  /* line 526, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+  .row.\35 0\25  > * {
+    padding: 0 0 0 1em;
+  }
+
+  /* line 530, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+  .row.\35 0\25 {
+    margin: 0 0 -1px -1em;
+  }
+
+  /* line 534, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+  .row.uniform.\35 0\25  > * {
+    padding: 1em 0 0 1em;
+  }
+
+  /* line 538, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+  .row.uniform.\35 0\25 {
+    margin: -1em 0 -1px -1em;
+  }
+
+  /* line 542, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+  .row.\32 5\25  > * {
+    padding: 0 0 0 0.5em;
+  }
+
+  /* line 546, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+  .row.\32 5\25 {
+    margin: 0 0 -1px -0.5em;
+  }
+
+  /* line 550, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+  .row.uniform.\32 5\25  > * {
+    padding: 0.5em 0 0 0.5em;
+  }
+
+  /* line 554, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+  .row.uniform.\32 5\25 {
+    margin: -0.5em 0 -1px -0.5em;
+  }
+
+  /* line 558, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+  .\31 2u\28xlarge\29, .\31 2u\24\28xlarge\29 {
+    width: 100%;
+    clear: none;
+    margin-left: 0;
+  }
+
+  /* line 564, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+  .\31 1u\28xlarge\29, .\31 1u\24\28xlarge\29 {
+    width: 91.6666666667%;
+    clear: none;
+    margin-left: 0;
+  }
+
+  /* line 570, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+  .\31 0u\28xlarge\29, .\31 0u\24\28xlarge\29 {
+    width: 83.3333333333%;
+    clear: none;
+    margin-left: 0;
+  }
+
+  /* line 576, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+  .\39 u\28xlarge\29, .\39 u\24\28xlarge\29 {
+    width: 75%;
+    clear: none;
+    margin-left: 0;
+  }
+
+  /* line 582, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+  .\38 u\28xlarge\29, .\38 u\24\28xlarge\29 {
+    width: 66.6666666667%;
+    clear: none;
+    margin-left: 0;
+  }
+
+  /* line 588, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+  .\37 u\28xlarge\29, .\37 u\24\28xlarge\29 {
+    width: 58.3333333333%;
+    clear: none;
+    margin-left: 0;
+  }
+
+  /* line 594, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+  .\36 u\28xlarge\29, .\36 u\24\28xlarge\29 {
+    width: 50%;
+    clear: none;
+    margin-left: 0;
+  }
+
+  /* line 600, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+  .\35 u\28xlarge\29, .\35 u\24\28xlarge\29 {
+    width: 41.6666666667%;
+    clear: none;
+    margin-left: 0;
+  }
+
+  /* line 606, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+  .\34 u\28xlarge\29, .\34 u\24\28xlarge\29 {
+    width: 33.3333333333%;
+    clear: none;
+    margin-left: 0;
+  }
+
+  /* line 612, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+  .\33 u\28xlarge\29, .\33 u\24\28xlarge\29 {
+    width: 25%;
+    clear: none;
+    margin-left: 0;
+  }
+
+  /* line 618, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+  .\32 u\28xlarge\29, .\32 u\24\28xlarge\29 {
+    width: 16.6666666667%;
+    clear: none;
+    margin-left: 0;
+  }
+
+  /* line 624, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+  .\31 u\28xlarge\29, .\31 u\24\28xlarge\29 {
+    width: 8.3333333333%;
+    clear: none;
+    margin-left: 0;
+  }
+
+  /* line 630, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+  .\31 2u\24\28xlarge\29  + *,
+  .\31 1u\24\28xlarge\29  + *,
+  .\31 0u\24\28xlarge\29  + *,
+  .\39 u\24\28xlarge\29  + *,
+  .\38 u\24\28xlarge\29  + *,
+  .\37 u\24\28xlarge\29  + *,
+  .\36 u\24\28xlarge\29  + *,
+  .\35 u\24\28xlarge\29  + *,
+  .\34 u\24\28xlarge\29  + *,
+  .\33 u\24\28xlarge\29  + *,
+  .\32 u\24\28xlarge\29  + *,
+  .\31 u\24\28xlarge\29  + * {
+    clear: left;
+  }
+
+  /* line 645, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+  .\-11u\28xlarge\29 {
+    margin-left: 91.66667%;
+  }
+
+  /* line 649, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+  .\-10u\28xlarge\29 {
+    margin-left: 83.33333%;
+  }
+
+  /* line 653, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+  .\-9u\28xlarge\29 {
+    margin-left: 75%;
+  }
+
+  /* line 657, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+  .\-8u\28xlarge\29 {
+    margin-left: 66.66667%;
+  }
+
+  /* line 661, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+  .\-7u\28xlarge\29 {
+    margin-left: 58.33333%;
+  }
+
+  /* line 665, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+  .\-6u\28xlarge\29 {
+    margin-left: 50%;
+  }
+
+  /* line 669, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+  .\-5u\28xlarge\29 {
+    margin-left: 41.66667%;
+  }
+
+  /* line 673, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+  .\-4u\28xlarge\29 {
+    margin-left: 33.33333%;
+  }
+
+  /* line 677, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+  .\-3u\28xlarge\29 {
+    margin-left: 25%;
+  }
+
+  /* line 681, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+  .\-2u\28xlarge\29 {
+    margin-left: 16.66667%;
+  }
+
+  /* line 685, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+  .\-1u\28xlarge\29 {
+    margin-left: 8.33333%;
+  }
+}
+@media screen and (max-width: 1280px) {
+  /* line 693, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+  .row > * {
+    padding: 0 0 0 1.5em;
+  }
+
+  /* line 697, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+  .row {
+    margin: 0 0 -1px -1.5em;
+  }
+
+  /* line 701, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+  .row.uniform > * {
+    padding: 1.5em 0 0 1.5em;
+  }
+
+  /* line 705, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+  .row.uniform {
+    margin: -1.5em 0 -1px -1.5em;
+  }
+
+  /* line 709, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+  .row.\32 00\25  > * {
+    padding: 0 0 0 3em;
+  }
+
+  /* line 713, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+  .row.\32 00\25 {
+    margin: 0 0 -1px -3em;
+  }
+
+  /* line 717, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+  .row.uniform.\32 00\25  > * {
+    padding: 3em 0 0 3em;
+  }
+
+  /* line 721, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+  .row.uniform.\32 00\25 {
+    margin: -3em 0 -1px -3em;
+  }
+
+  /* line 725, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+  .row.\31 50\25  > * {
+    padding: 0 0 0 2.25em;
+  }
+
+  /* line 729, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+  .row.\31 50\25 {
+    margin: 0 0 -1px -2.25em;
+  }
+
+  /* line 733, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+  .row.uniform.\31 50\25  > * {
+    padding: 2.25em 0 0 2.25em;
+  }
+
+  /* line 737, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+  .row.uniform.\31 50\25 {
+    margin: -2.25em 0 -1px -2.25em;
+  }
+
+  /* line 741, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+  .row.\35 0\25  > * {
+    padding: 0 0 0 0.75em;
+  }
+
+  /* line 745, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+  .row.\35 0\25 {
+    margin: 0 0 -1px -0.75em;
+  }
+
+  /* line 749, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+  .row.uniform.\35 0\25  > * {
+    padding: 0.75em 0 0 0.75em;
+  }
+
+  /* line 753, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+  .row.uniform.\35 0\25 {
+    margin: -0.75em 0 -1px -0.75em;
+  }
+
+  /* line 757, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+  .row.\32 5\25  > * {
+    padding: 0 0 0 0.375em;
+  }
+
+  /* line 761, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+  .row.\32 5\25 {
+    margin: 0 0 -1px -0.375em;
+  }
+
+  /* line 765, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+  .row.uniform.\32 5\25  > * {
+    padding: 0.375em 0 0 0.375em;
+  }
+
+  /* line 769, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+  .row.uniform.\32 5\25 {
+    margin: -0.375em 0 -1px -0.375em;
+  }
+
+  /* line 773, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+  .\31 2u\28large\29, .\31 2u\24\28large\29 {
+    width: 100%;
+    clear: none;
+    margin-left: 0;
+  }
+
+  /* line 779, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+  .\31 1u\28large\29, .\31 1u\24\28large\29 {
+    width: 91.6666666667%;
+    clear: none;
+    margin-left: 0;
+  }
+
+  /* line 785, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+  .\31 0u\28large\29, .\31 0u\24\28large\29 {
+    width: 83.3333333333%;
+    clear: none;
+    margin-left: 0;
+  }
+
+  /* line 791, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+  .\39 u\28large\29, .\39 u\24\28large\29 {
+    width: 75%;
+    clear: none;
+    margin-left: 0;
+  }
+
+  /* line 797, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+  .\38 u\28large\29, .\38 u\24\28large\29 {
+    width: 66.6666666667%;
+    clear: none;
+    margin-left: 0;
+  }
+
+  /* line 803, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+  .\37 u\28large\29, .\37 u\24\28large\29 {
+    width: 58.3333333333%;
+    clear: none;
+    margin-left: 0;
+  }
+
+  /* line 809, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+  .\36 u\28large\29, .\36 u\24\28large\29 {
+    width: 50%;
+    clear: none;
+    margin-left: 0;
+  }
+
+  /* line 815, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+  .\35 u\28large\29, .\35 u\24\28large\29 {
+    width: 41.6666666667%;
+    clear: none;
+    margin-left: 0;
+  }
+
+  /* line 821, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+  .\34 u\28large\29, .\34 u\24\28large\29 {
+    width: 33.3333333333%;
+    clear: none;
+    margin-left: 0;
+  }
+
+  /* line 827, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+  .\33 u\28large\29, .\33 u\24\28large\29 {
+    width: 25%;
+    clear: none;
+    margin-left: 0;
+  }
+
+  /* line 833, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+  .\32 u\28large\29, .\32 u\24\28large\29 {
+    width: 16.6666666667%;
+    clear: none;
+    margin-left: 0;
+  }
+
+  /* line 839, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+  .\31 u\28large\29, .\31 u\24\28large\29 {
+    width: 8.3333333333%;
+    clear: none;
+    margin-left: 0;
+  }
+
+  /* line 845, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+  .\31 2u\24\28large\29  + *,
+  .\31 1u\24\28large\29  + *,
+  .\31 0u\24\28large\29  + *,
+  .\39 u\24\28large\29  + *,
+  .\38 u\24\28large\29  + *,
+  .\37 u\24\28large\29  + *,
+  .\36 u\24\28large\29  + *,
+  .\35 u\24\28large\29  + *,
+  .\34 u\24\28large\29  + *,
+  .\33 u\24\28large\29  + *,
+  .\32 u\24\28large\29  + *,
+  .\31 u\24\28large\29  + * {
+    clear: left;
+  }
+
+  /* line 860, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+  .\-11u\28large\29 {
+    margin-left: 91.66667%;
+  }
+
+  /* line 864, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+  .\-10u\28large\29 {
+    margin-left: 83.33333%;
+  }
+
+  /* line 868, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+  .\-9u\28large\29 {
+    margin-left: 75%;
+  }
+
+  /* line 872, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+  .\-8u\28large\29 {
+    margin-left: 66.66667%;
+  }
+
+  /* line 876, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+  .\-7u\28large\29 {
+    margin-left: 58.33333%;
+  }
+
+  /* line 880, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+  .\-6u\28large\29 {
+    margin-left: 50%;
+  }
+
+  /* line 884, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+  .\-5u\28large\29 {
+    margin-left: 41.66667%;
+  }
+
+  /* line 888, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+  .\-4u\28large\29 {
+    margin-left: 33.33333%;
+  }
+
+  /* line 892, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+  .\-3u\28large\29 {
+    margin-left: 25%;
+  }
+
+  /* line 896, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+  .\-2u\28large\29 {
+    margin-left: 16.66667%;
+  }
+
+  /* line 900, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+  .\-1u\28large\29 {
+    margin-left: 8.33333%;
+  }
+}
+@media screen and (max-width: 980px) {
+  /* line 908, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+  .row > * {
+    padding: 0 0 0 1.5em;
+  }
+
+  /* line 912, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+  .row {
+    margin: 0 0 -1px -1.5em;
+  }
+
+  /* line 916, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+  .row.uniform > * {
+    padding: 1.5em 0 0 1.5em;
+  }
+
+  /* line 920, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+  .row.uniform {
+    margin: -1.5em 0 -1px -1.5em;
+  }
+
+  /* line 924, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+  .row.\32 00\25  > * {
+    padding: 0 0 0 3em;
+  }
+
+  /* line 928, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+  .row.\32 00\25 {
+    margin: 0 0 -1px -3em;
+  }
+
+  /* line 932, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+  .row.uniform.\32 00\25  > * {
+    padding: 3em 0 0 3em;
+  }
+
+  /* line 936, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+  .row.uniform.\32 00\25 {
+    margin: -3em 0 -1px -3em;
+  }
+
+  /* line 940, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+  .row.\31 50\25  > * {
+    padding: 0 0 0 2.25em;
+  }
+
+  /* line 944, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+  .row.\31 50\25 {
+    margin: 0 0 -1px -2.25em;
+  }
+
+  /* line 948, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+  .row.uniform.\31 50\25  > * {
+    padding: 2.25em 0 0 2.25em;
+  }
+
+  /* line 952, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+  .row.uniform.\31 50\25 {
+    margin: -2.25em 0 -1px -2.25em;
+  }
+
+  /* line 956, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+  .row.\35 0\25  > * {
+    padding: 0 0 0 0.75em;
+  }
+
+  /* line 960, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+  .row.\35 0\25 {
+    margin: 0 0 -1px -0.75em;
+  }
+
+  /* line 964, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+  .row.uniform.\35 0\25  > * {
+    padding: 0.75em 0 0 0.75em;
+  }
+
+  /* line 968, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+  .row.uniform.\35 0\25 {
+    margin: -0.75em 0 -1px -0.75em;
+  }
+
+  /* line 972, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+  .row.\32 5\25  > * {
+    padding: 0 0 0 0.375em;
+  }
+
+  /* line 976, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+  .row.\32 5\25 {
+    margin: 0 0 -1px -0.375em;
+  }
+
+  /* line 980, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+  .row.uniform.\32 5\25  > * {
+    padding: 0.375em 0 0 0.375em;
+  }
+
+  /* line 984, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+  .row.uniform.\32 5\25 {
+    margin: -0.375em 0 -1px -0.375em;
+  }
+
+  /* line 988, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+  .\31 2u\28medium\29, .\31 2u\24\28medium\29 {
+    width: 100%;
+    clear: none;
+    margin-left: 0;
+  }
+
+  /* line 994, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+  .\31 1u\28medium\29, .\31 1u\24\28medium\29 {
+    width: 91.6666666667%;
+    clear: none;
+    margin-left: 0;
+  }
+
+  /* line 1000, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+  .\31 0u\28medium\29, .\31 0u\24\28medium\29 {
+    width: 83.3333333333%;
+    clear: none;
+    margin-left: 0;
+  }
+
+  /* line 1006, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+  .\39 u\28medium\29, .\39 u\24\28medium\29 {
+    width: 75%;
+    clear: none;
+    margin-left: 0;
+  }
+
+  /* line 1012, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+  .\38 u\28medium\29, .\38 u\24\28medium\29 {
+    width: 66.6666666667%;
+    clear: none;
+    margin-left: 0;
+  }
+
+  /* line 1018, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+  .\37 u\28medium\29, .\37 u\24\28medium\29 {
+    width: 58.3333333333%;
+    clear: none;
+    margin-left: 0;
+  }
+
+  /* line 1024, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+  .\36 u\28medium\29, .\36 u\24\28medium\29 {
+    width: 50%;
+    clear: none;
+    margin-left: 0;
+  }
+
+  /* line 1030, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+  .\35 u\28medium\29, .\35 u\24\28medium\29 {
+    width: 41.6666666667%;
+    clear: none;
+    margin-left: 0;
+  }
+
+  /* line 1036, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+  .\34 u\28medium\29, .\34 u\24\28medium\29 {
+    width: 33.3333333333%;
+    clear: none;
+    margin-left: 0;
+  }
+
+  /* line 1042, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+  .\33 u\28medium\29, .\33 u\24\28medium\29 {
+    width: 25%;
+    clear: none;
+    margin-left: 0;
+  }
+
+  /* line 1048, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+  .\32 u\28medium\29, .\32 u\24\28medium\29 {
+    width: 16.6666666667%;
+    clear: none;
+    margin-left: 0;
+  }
+
+  /* line 1054, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+  .\31 u\28medium\29, .\31 u\24\28medium\29 {
+    width: 8.3333333333%;
+    clear: none;
+    margin-left: 0;
+  }
+
+  /* line 1060, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+  .\31 2u\24\28medium\29  + *,
+  .\31 1u\24\28medium\29  + *,
+  .\31 0u\24\28medium\29  + *,
+  .\39 u\24\28medium\29  + *,
+  .\38 u\24\28medium\29  + *,
+  .\37 u\24\28medium\29  + *,
+  .\36 u\24\28medium\29  + *,
+  .\35 u\24\28medium\29  + *,
+  .\34 u\24\28medium\29  + *,
+  .\33 u\24\28medium\29  + *,
+  .\32 u\24\28medium\29  + *,
+  .\31 u\24\28medium\29  + * {
+    clear: left;
+  }
+
+  /* line 1075, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+  .\-11u\28medium\29 {
+    margin-left: 91.66667%;
+  }
+
+  /* line 1079, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+  .\-10u\28medium\29 {
+    margin-left: 83.33333%;
+  }
+
+  /* line 1083, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+  .\-9u\28medium\29 {
+    margin-left: 75%;
+  }
+
+  /* line 1087, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+  .\-8u\28medium\29 {
+    margin-left: 66.66667%;
+  }
+
+  /* line 1091, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+  .\-7u\28medium\29 {
+    margin-left: 58.33333%;
+  }
+
+  /* line 1095, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+  .\-6u\28medium\29 {
+    margin-left: 50%;
+  }
+
+  /* line 1099, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+  .\-5u\28medium\29 {
+    margin-left: 41.66667%;
+  }
+
+  /* line 1103, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+  .\-4u\28medium\29 {
+    margin-left: 33.33333%;
+  }
+
+  /* line 1107, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+  .\-3u\28medium\29 {
+    margin-left: 25%;
+  }
+
+  /* line 1111, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+  .\-2u\28medium\29 {
+    margin-left: 16.66667%;
+  }
+
+  /* line 1115, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+  .\-1u\28medium\29 {
+    margin-left: 8.33333%;
+  }
+}
+@media screen and (max-width: 736px) {
+  /* line 1123, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+  .row > * {
+    padding: 0 0 0 1.25em;
+  }
+
+  /* line 1127, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+  .row {
+    margin: 0 0 -1px -1.25em;
+  }
+
+  /* line 1131, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+  .row.uniform > * {
+    padding: 1.25em 0 0 1.25em;
+  }
+
+  /* line 1135, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+  .row.uniform {
+    margin: -1.25em 0 -1px -1.25em;
+  }
+
+  /* line 1139, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+  .row.\32 00\25  > * {
+    padding: 0 0 0 2.5em;
+  }
+
+  /* line 1143, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+  .row.\32 00\25 {
+    margin: 0 0 -1px -2.5em;
+  }
+
+  /* line 1147, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+  .row.uniform.\32 00\25  > * {
+    padding: 2.5em 0 0 2.5em;
+  }
+
+  /* line 1151, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+  .row.uniform.\32 00\25 {
+    margin: -2.5em 0 -1px -2.5em;
+  }
+
+  /* line 1155, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+  .row.\31 50\25  > * {
+    padding: 0 0 0 1.875em;
+  }
+
+  /* line 1159, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+  .row.\31 50\25 {
+    margin: 0 0 -1px -1.875em;
+  }
+
+  /* line 1163, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+  .row.uniform.\31 50\25  > * {
+    padding: 1.875em 0 0 1.875em;
+  }
+
+  /* line 1167, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+  .row.uniform.\31 50\25 {
+    margin: -1.875em 0 -1px -1.875em;
+  }
+
+  /* line 1171, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+  .row.\35 0\25  > * {
+    padding: 0 0 0 0.625em;
+  }
+
+  /* line 1175, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+  .row.\35 0\25 {
+    margin: 0 0 -1px -0.625em;
+  }
+
+  /* line 1179, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+  .row.uniform.\35 0\25  > * {
+    padding: 0.625em 0 0 0.625em;
+  }
+
+  /* line 1183, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+  .row.uniform.\35 0\25 {
+    margin: -0.625em 0 -1px -0.625em;
+  }
+
+  /* line 1187, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+  .row.\32 5\25  > * {
+    padding: 0 0 0 0.3125em;
+  }
+
+  /* line 1191, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+  .row.\32 5\25 {
+    margin: 0 0 -1px -0.3125em;
+  }
+
+  /* line 1195, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+  .row.uniform.\32 5\25  > * {
+    padding: 0.3125em 0 0 0.3125em;
+  }
+
+  /* line 1199, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+  .row.uniform.\32 5\25 {
+    margin: -0.3125em 0 -1px -0.3125em;
+  }
+
+  /* line 1203, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+  .\31 2u\28small\29, .\31 2u\24\28small\29 {
+    width: 100%;
+    clear: none;
+    margin-left: 0;
+  }
+
+  /* line 1209, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+  .\31 1u\28small\29, .\31 1u\24\28small\29 {
+    width: 91.6666666667%;
+    clear: none;
+    margin-left: 0;
+  }
+
+  /* line 1215, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+  .\31 0u\28small\29, .\31 0u\24\28small\29 {
+    width: 83.3333333333%;
+    clear: none;
+    margin-left: 0;
+  }
+
+  /* line 1221, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+  .\39 u\28small\29, .\39 u\24\28small\29 {
+    width: 75%;
+    clear: none;
+    margin-left: 0;
+  }
+
+  /* line 1227, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+  .\38 u\28small\29, .\38 u\24\28small\29 {
+    width: 66.6666666667%;
+    clear: none;
+    margin-left: 0;
+  }
+
+  /* line 1233, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+  .\37 u\28small\29, .\37 u\24\28small\29 {
+    width: 58.3333333333%;
+    clear: none;
+    margin-left: 0;
+  }
+
+  /* line 1239, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+  .\36 u\28small\29, .\36 u\24\28small\29 {
+    width: 50%;
+    clear: none;
+    margin-left: 0;
+  }
+
+  /* line 1245, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+  .\35 u\28small\29, .\35 u\24\28small\29 {
+    width: 41.6666666667%;
+    clear: none;
+    margin-left: 0;
+  }
+
+  /* line 1251, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+  .\34 u\28small\29, .\34 u\24\28small\29 {
+    width: 33.3333333333%;
+    clear: none;
+    margin-left: 0;
+  }
+
+  /* line 1257, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+  .\33 u\28small\29, .\33 u\24\28small\29 {
+    width: 25%;
+    clear: none;
+    margin-left: 0;
+  }
+
+  /* line 1263, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+  .\32 u\28small\29, .\32 u\24\28small\29 {
+    width: 16.6666666667%;
+    clear: none;
+    margin-left: 0;
+  }
+
+  /* line 1269, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+  .\31 u\28small\29, .\31 u\24\28small\29 {
+    width: 8.3333333333%;
+    clear: none;
+    margin-left: 0;
+  }
+
+  /* line 1275, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+  .\31 2u\24\28small\29  + *,
+  .\31 1u\24\28small\29  + *,
+  .\31 0u\24\28small\29  + *,
+  .\39 u\24\28small\29  + *,
+  .\38 u\24\28small\29  + *,
+  .\37 u\24\28small\29  + *,
+  .\36 u\24\28small\29  + *,
+  .\35 u\24\28small\29  + *,
+  .\34 u\24\28small\29  + *,
+  .\33 u\24\28small\29  + *,
+  .\32 u\24\28small\29  + *,
+  .\31 u\24\28small\29  + * {
+    clear: left;
+  }
+
+  /* line 1290, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+  .\-11u\28small\29 {
+    margin-left: 91.66667%;
+  }
+
+  /* line 1294, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+  .\-10u\28small\29 {
+    margin-left: 83.33333%;
+  }
+
+  /* line 1298, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+  .\-9u\28small\29 {
+    margin-left: 75%;
+  }
+
+  /* line 1302, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+  .\-8u\28small\29 {
+    margin-left: 66.66667%;
+  }
+
+  /* line 1306, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+  .\-7u\28small\29 {
+    margin-left: 58.33333%;
+  }
+
+  /* line 1310, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+  .\-6u\28small\29 {
+    margin-left: 50%;
+  }
+
+  /* line 1314, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+  .\-5u\28small\29 {
+    margin-left: 41.66667%;
+  }
+
+  /* line 1318, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+  .\-4u\28small\29 {
+    margin-left: 33.33333%;
+  }
+
+  /* line 1322, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+  .\-3u\28small\29 {
+    margin-left: 25%;
+  }
+
+  /* line 1326, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+  .\-2u\28small\29 {
+    margin-left: 16.66667%;
+  }
+
+  /* line 1330, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+  .\-1u\28small\29 {
+    margin-left: 8.33333%;
+  }
+}
+@media screen and (max-width: 480px) {
+  /* line 1338, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+  .row > * {
+    padding: 0 0 0 1.25em;
+  }
+
+  /* line 1342, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+  .row {
+    margin: 0 0 -1px -1.25em;
+  }
+
+  /* line 1346, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+  .row.uniform > * {
+    padding: 1.25em 0 0 1.25em;
+  }
+
+  /* line 1350, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+  .row.uniform {
+    margin: -1.25em 0 -1px -1.25em;
+  }
+
+  /* line 1354, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+  .row.\32 00\25  > * {
+    padding: 0 0 0 2.5em;
+  }
+
+  /* line 1358, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+  .row.\32 00\25 {
+    margin: 0 0 -1px -2.5em;
+  }
+
+  /* line 1362, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+  .row.uniform.\32 00\25  > * {
+    padding: 2.5em 0 0 2.5em;
+  }
+
+  /* line 1366, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+  .row.uniform.\32 00\25 {
+    margin: -2.5em 0 -1px -2.5em;
+  }
+
+  /* line 1370, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+  .row.\31 50\25  > * {
+    padding: 0 0 0 1.875em;
+  }
+
+  /* line 1374, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+  .row.\31 50\25 {
+    margin: 0 0 -1px -1.875em;
+  }
+
+  /* line 1378, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+  .row.uniform.\31 50\25  > * {
+    padding: 1.875em 0 0 1.875em;
+  }
+
+  /* line 1382, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+  .row.uniform.\31 50\25 {
+    margin: -1.875em 0 -1px -1.875em;
+  }
+
+  /* line 1386, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+  .row.\35 0\25  > * {
+    padding: 0 0 0 0.625em;
+  }
+
+  /* line 1390, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+  .row.\35 0\25 {
+    margin: 0 0 -1px -0.625em;
+  }
+
+  /* line 1394, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+  .row.uniform.\35 0\25  > * {
+    padding: 0.625em 0 0 0.625em;
+  }
+
+  /* line 1398, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+  .row.uniform.\35 0\25 {
+    margin: -0.625em 0 -1px -0.625em;
+  }
+
+  /* line 1402, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+  .row.\32 5\25  > * {
+    padding: 0 0 0 0.3125em;
+  }
+
+  /* line 1406, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+  .row.\32 5\25 {
+    margin: 0 0 -1px -0.3125em;
+  }
+
+  /* line 1410, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+  .row.uniform.\32 5\25  > * {
+    padding: 0.3125em 0 0 0.3125em;
+  }
+
+  /* line 1414, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+  .row.uniform.\32 5\25 {
+    margin: -0.3125em 0 -1px -0.3125em;
+  }
+
+  /* line 1418, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+  .\31 2u\28xsmall\29, .\31 2u\24\28xsmall\29 {
+    width: 100%;
+    clear: none;
+    margin-left: 0;
+  }
+
+  /* line 1424, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+  .\31 1u\28xsmall\29, .\31 1u\24\28xsmall\29 {
+    width: 91.6666666667%;
+    clear: none;
+    margin-left: 0;
+  }
+
+  /* line 1430, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+  .\31 0u\28xsmall\29, .\31 0u\24\28xsmall\29 {
+    width: 83.3333333333%;
+    clear: none;
+    margin-left: 0;
+  }
+
+  /* line 1436, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+  .\39 u\28xsmall\29, .\39 u\24\28xsmall\29 {
+    width: 75%;
+    clear: none;
+    margin-left: 0;
+  }
+
+  /* line 1442, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+  .\38 u\28xsmall\29, .\38 u\24\28xsmall\29 {
+    width: 66.6666666667%;
+    clear: none;
+    margin-left: 0;
+  }
+
+  /* line 1448, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+  .\37 u\28xsmall\29, .\37 u\24\28xsmall\29 {
+    width: 58.3333333333%;
+    clear: none;
+    margin-left: 0;
+  }
+
+  /* line 1454, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+  .\36 u\28xsmall\29, .\36 u\24\28xsmall\29 {
+    width: 50%;
+    clear: none;
+    margin-left: 0;
+  }
+
+  /* line 1460, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+  .\35 u\28xsmall\29, .\35 u\24\28xsmall\29 {
+    width: 41.6666666667%;
+    clear: none;
+    margin-left: 0;
+  }
+
+  /* line 1466, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+  .\34 u\28xsmall\29, .\34 u\24\28xsmall\29 {
+    width: 33.3333333333%;
+    clear: none;
+    margin-left: 0;
+  }
+
+  /* line 1472, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+  .\33 u\28xsmall\29, .\33 u\24\28xsmall\29 {
+    width: 25%;
+    clear: none;
+    margin-left: 0;
+  }
+
+  /* line 1478, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+  .\32 u\28xsmall\29, .\32 u\24\28xsmall\29 {
+    width: 16.6666666667%;
+    clear: none;
+    margin-left: 0;
+  }
+
+  /* line 1484, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+  .\31 u\28xsmall\29, .\31 u\24\28xsmall\29 {
+    width: 8.3333333333%;
+    clear: none;
+    margin-left: 0;
+  }
+
+  /* line 1490, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+  .\31 2u\24\28xsmall\29  + *,
+  .\31 1u\24\28xsmall\29  + *,
+  .\31 0u\24\28xsmall\29  + *,
+  .\39 u\24\28xsmall\29  + *,
+  .\38 u\24\28xsmall\29  + *,
+  .\37 u\24\28xsmall\29  + *,
+  .\36 u\24\28xsmall\29  + *,
+  .\35 u\24\28xsmall\29  + *,
+  .\34 u\24\28xsmall\29  + *,
+  .\33 u\24\28xsmall\29  + *,
+  .\32 u\24\28xsmall\29  + *,
+  .\31 u\24\28xsmall\29  + * {
+    clear: left;
+  }
+
+  /* line 1505, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+  .\-11u\28xsmall\29 {
+    margin-left: 91.66667%;
+  }
+
+  /* line 1509, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+  .\-10u\28xsmall\29 {
+    margin-left: 83.33333%;
+  }
+
+  /* line 1513, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+  .\-9u\28xsmall\29 {
+    margin-left: 75%;
+  }
+
+  /* line 1517, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+  .\-8u\28xsmall\29 {
+    margin-left: 66.66667%;
+  }
+
+  /* line 1521, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+  .\-7u\28xsmall\29 {
+    margin-left: 58.33333%;
+  }
+
+  /* line 1525, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+  .\-6u\28xsmall\29 {
+    margin-left: 50%;
+  }
+
+  /* line 1529, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+  .\-5u\28xsmall\29 {
+    margin-left: 41.66667%;
+  }
+
+  /* line 1533, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+  .\-4u\28xsmall\29 {
+    margin-left: 33.33333%;
+  }
+
+  /* line 1537, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+  .\-3u\28xsmall\29 {
+    margin-left: 25%;
+  }
+
+  /* line 1541, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+  .\-2u\28xsmall\29 {
+    margin-left: 16.66667%;
+  }
+
+  /* line 1545, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+  .\-1u\28xsmall\29 {
+    margin-left: 8.33333%;
+  }
+}
+/* Basic */
+@-ms-viewport {
+  width: device-width;
+}
+/* line 1557, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+body {
+  -ms-overflow-style: scrollbar;
+}
+
+@media screen and (max-width: 480px) {
+  /* line 1563, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+  html, body {
+    min-width: 320px;
+  }
+}
+/* line 1569, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+body {
+  background: #fff;
+}
+
+/* line 1573, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+body.is-loading *, body.is-loading *:before, body.is-loading *:after {
+  -moz-animation: none !important;
+  -webkit-animation: none !important;
+  -ms-animation: none !important;
+  animation: none !important;
+  -moz-transition: none !important;
+  -webkit-transition: none !important;
+  -ms-transition: none !important;
+  transition: none !important;
+}
+
+/* Type */
+/* line 1586, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+body, input, select, textarea {
+  color: #9a9a9a;
+  font-family: "Source Sans Pro", Arial, Helvetica, sans-serif;
+  font-size: 14pt;
+  font-weight: 400;
+  line-height: 1.65;
+}
+
+@media screen and (max-width: 1680px) {
+  /* line 1596, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+  body, input, select, textarea {
+    font-size: 12pt;
+  }
+}
+@media screen and (max-width: 1280px) {
+  /* line 1604, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+  body, input, select, textarea {
+    font-size: 12pt;
+  }
+}
+@media screen and (max-width: 980px) {
+  /* line 1612, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+  body, input, select, textarea {
+    font-size: 12pt;
+  }
+}
+@media screen and (max-width: 736px) {
+  /* line 1620, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+  body, input, select, textarea {
+    font-size: 12pt;
+  }
+}
+@media screen and (max-width: 480px) {
+  /* line 1628, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+  body, input, select, textarea {
+    font-size: 12pt;
+  }
+}
+/* line 1634, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+a {
+  color: #6cc091;
+  text-decoration: underline;
+}
+
+/* line 1639, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+a:hover {
+  text-decoration: none;
+}
+
+/* line 1643, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+strong, b {
+  color: #555;
+  font-weight: 600;
+}
+
+/* line 1648, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+em, i {
+  font-style: italic;
+}
+
+/* line 1652, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+p {
+  margin: 0 0 2em 0;
+}
+
+/* line 1656, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+h1, h2, h3, h4, h5, h6 {
+  color: #555;
+  font-weight: 400;
+  line-height: 1.5;
+  margin: 0 0 1em 0;
+}
+
+/* line 1663, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
+  color: inherit;
+  text-decoration: none;
+}
+
+/* line 1668, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+h2 {
+  font-size: 1.85em;
+  font-weight: 300;
+}
+
+/* line 1673, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+h3 {
+  font-size: 1.75em;
+}
+
+@media screen and (max-width: 480px) {
+  /* line 1679, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+  h3 {
+    font-size: 1.25em;
+  }
+}
+/* line 1685, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+h4 {
+  font-size: 1.5em;
+}
+
+/* line 1689, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+h5 {
+  font-size: 0.9em;
+}
+
+/* line 1693, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+h6 {
+  font-size: 0.7em;
+}
+
+/* line 1697, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+sub {
+  font-size: 0.8em;
+  position: relative;
+  top: 0.5em;
+}
+
+/* line 1703, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+sup {
+  font-size: 0.8em;
+  position: relative;
+  top: -0.5em;
+}
+
+/* line 1709, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+blockquote {
+  border-left: solid 4px #dbdbdb;
+  font-style: italic;
+  margin: 0 0 2em 0;
+  padding: 0.5em 0 0.5em 2em;
+}
+
+/* line 1716, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+code {
+  background: rgba(144, 144, 144, 0.075);
+  border-radius: 0;
+  border: solid 1px #dbdbdb;
+  font-family: "Courier New", monospace;
+  font-size: 0.9em;
+  margin: 0 0.25em;
+  padding: 0.25em 0.65em;
+}
+
+/* line 1726, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+pre {
+  -webkit-overflow-scrolling: touch;
+  font-family: "Courier New", monospace;
+  font-size: 0.9em;
+  margin: 0 0 2em 0;
+}
+
+/* line 1733, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+pre code {
+  display: block;
+  line-height: 1.75;
+  padding: 1em 1.5em;
+  overflow-x: auto;
+}
+
+/* line 1740, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+hr {
+  border: 0;
+  border-bottom: solid 1px #dbdbdb;
+  margin: 2em 0;
+}
+
+/* line 1746, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+hr.major {
+  margin: 3em 0;
+}
+
+/* line 1750, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+.align-left {
+  text-align: left;
+}
+
+/* line 1754, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+.align-center {
+  text-align: center;
+}
+
+/* line 1758, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+.align-right {
+  text-align: right;
+}
+
+/* line 1762, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+.inner {
+  max-width: 75em;
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 1280px) {
+  /* line 1769, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+  .inner {
+    max-width: 90%;
+  }
+}
+@media screen and (max-width: 480px) {
+  /* line 1777, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+  .inner {
+    max-width: 90%;
+  }
+}
+/* Section/Article */
+/* line 1785, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+section.special, article.special {
+  text-align: center;
+}
+
+/* line 1789, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+section.special article, article.special article {
+  text-align: left;
+}
+
+/* line 1793, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+section.wrapper, article.wrapper {
+  padding: 6em 0;
+}
+
+/* line 1797, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+section.wrapper header, article.wrapper header {
+  margin-bottom: 4em;
+}
+
+/* line 1801, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+section.wrapper header h2, article.wrapper header h2 {
+  font-size: 2.75em;
+  margin: 0 0 .5em 0;
+}
+
+/* line 1806, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+section.wrapper header p, article.wrapper header p {
+  font-size: 1em;
+}
+
+/* line 1810, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+section.wrapper article header, article.wrapper article header {
+  margin: 0;
+}
+
+@media screen and (max-width: 980px) {
+  /* line 1816, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+  section.wrapper, article.wrapper {
+    padding: 4em 0;
+  }
+}
+@media screen and (max-width: 736px) {
+  /* line 1824, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+  section.wrapper, article.wrapper {
+    padding: 3em 0;
+  }
+
+  /* line 1828, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+  section.wrapper header, article.wrapper header {
+    margin-bottom: 2em;
+  }
+
+  /* line 1832, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+  section.wrapper header h2, article.wrapper header h2 {
+    font-size: 2em;
+  }
+
+  /* line 1836, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+  section.wrapper header p, article.wrapper header p {
+    font-size: .9em;
+  }
+}
+@media screen and (max-width: 480px) {
+  /* line 1844, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+  section.wrapper article, article.wrapper article {
+    text-align: center;
+  }
+}
+/* line 1850, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+header p {
+  color: #bbb;
+  position: relative;
+  margin: 0 0 1.5em 0;
+}
+
+/* line 1856, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+header h2 + p {
+  font-size: 1.25em;
+  margin-top: -1em;
+}
+
+/* line 1861, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+header h3 + p {
+  font-size: 1.1em;
+  margin-top: -0.8em;
+}
+
+/* line 1866, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+header h4 + p,
+header h5 + p,
+header h6 + p {
+  font-size: 0.9em;
+  margin-top: -0.6em;
+}
+
+/* Flex */
+/* line 1875, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+.flex {
+  display: -ms-flexbox;
+  -ms-flex-wrap: wrap;
+  -ms-flex-pack: justify;
+  -moz-justify-content: space-between;
+  -webkit-justify-content: space-between;
+  -ms-justify-content: space-between;
+  justify-content: space-between;
+  display: -moz-flex;
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+  -moz-flex-wrap: wrap;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+/* line 1894, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+.flex.flex-2 {
+  -moz-justify-content: space-between;
+  -webkit-justify-content: space-between;
+  -ms-justify-content: space-between;
+  justify-content: space-between;
+}
+
+/* line 1901, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+.flex.flex-2 article {
+  width: 50%;
+}
+
+@media screen and (max-width: 980px) {
+  /* line 1907, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+  .flex.flex-2 article {
+    width: 100%;
+    margin-bottom: 3em;
+  }
+
+  /* line 1912, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+  .flex.flex-2 article:last-child {
+    margin-bottom: 0;
+  }
+}
+@media screen and (max-width: 480px) {
+  /* line 1920, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+  .flex.flex-2 br {
+    display: none;
+  }
+}
+/* Form */
+/* line 1928, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+form {
+  margin: 0 0 2em 0;
+}
+
+/* line 1932, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+form .field {
+  margin-bottom: 1.5em;
+}
+
+/* line 1936, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+form .field.half {
+  display: inline-block;
+  width: 48%;
+}
+
+/* line 1941, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+form .field.half.first {
+  margin-right: 3%;
+}
+
+@media screen and (max-width: 980px) {
+  /* line 1947, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+  form .field.half {
+    display: block;
+    width: 100%;
+  }
+
+  /* line 1952, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+  form .field.half.first {
+    margin-right: 0;
+  }
+}
+/* line 1958, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+label {
+  color: #555;
+  display: block;
+  font-size: 0.9em;
+  font-weight: 600;
+  margin: 0 0 1em 0;
+}
+
+/* line 1966, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+input[type="text"],
+input[type="password"],
+input[type="email"],
+input[type="tel"],
+select,
+textarea {
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  -ms-appearance: none;
+  appearance: none;
+  background: #6cc091;
+  border-radius: 10px;
+  border: none;
+  border: solid 2px #8dcca9;
+  color: #fff;
+  display: block;
+  outline: 0;
+  padding: 0 1em;
+  text-decoration: none;
+  width: 100%;
+}
+
+/* line 1988, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+input[type="text"]:invalid,
+input[type="password"]:invalid,
+input[type="email"]:invalid,
+input[type="tel"]:invalid,
+select:invalid,
+textarea:invalid {
+  box-shadow: none;
+}
+
+/* line 1997, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+input[type="text"]:focus,
+input[type="password"]:focus,
+input[type="email"]:focus,
+input[type="tel"]:focus,
+select:focus,
+textarea:focus {
+  border-color: #4bae77;
+  box-shadow: 0 0 0 1px #4bae77;
+}
+
+/* line 2007, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+.select-wrapper {
+  text-decoration: none;
+  display: block;
+  position: relative;
+}
+
+/* line 2013, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+.select-wrapper:before {
+  content: "";
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-family: FontAwesome;
+  font-style: normal;
+  font-weight: normal;
+  text-transform: none !important;
+}
+
+/* line 2023, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+.select-wrapper:before {
+  color: #fff;
+  display: block;
+  height: 2.75em;
+  line-height: 2.75em;
+  pointer-events: none;
+  position: absolute;
+  right: 0;
+  text-align: center;
+  top: 0;
+  width: 2.75em;
+}
+
+/* line 2036, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+.select-wrapper select::-ms-expand {
+  display: none;
+}
+
+/* line 2040, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+input[type="text"],
+input[type="password"],
+input[type="email"],
+select {
+  height: 2.75em;
+}
+
+/* line 2047, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+textarea {
+  padding: 0.75em 1em;
+}
+
+/* line 2051, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+input[type="checkbox"],
+input[type="radio"] {
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  -ms-appearance: none;
+  appearance: none;
+  display: block;
+  float: left;
+  margin-right: -2em;
+  opacity: 0;
+  width: 1em;
+  z-index: -1;
+}
+
+/* line 2065, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+input[type="checkbox"] + label,
+input[type="radio"] + label {
+  text-decoration: none;
+  color: #9a9a9a;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 1em;
+  font-weight: 400;
+  padding-left: 2.4em;
+  padding-right: 0.75em;
+  position: relative;
+}
+
+/* line 2078, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+input[type="checkbox"] + label:before,
+input[type="radio"] + label:before {
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-family: FontAwesome;
+  font-style: normal;
+  font-weight: normal;
+  text-transform: none !important;
+}
+
+/* line 2088, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+input[type="checkbox"] + label:before,
+input[type="radio"] + label:before {
+  background: rgba(144, 144, 144, 0.075);
+  border-radius: 0;
+  border: solid 1px #8dcca9;
+  content: '';
+  display: inline-block;
+  height: 1.65em;
+  left: 0;
+  line-height: 1.58125em;
+  position: absolute;
+  text-align: center;
+  top: 0;
+  width: 1.65em;
+}
+
+/* line 2104, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+input[type="checkbox"]:checked + label:before,
+input[type="radio"]:checked + label:before {
+  background: #6cc091;
+  border-color: #6cc091;
+  color: #ffffff;
+  content: '\f00c';
+}
+
+/* line 2112, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+input[type="checkbox"]:focus + label:before,
+input[type="radio"]:focus + label:before {
+  border-color: #6cc091;
+  box-shadow: 0 0 0 1px #6cc091;
+}
+
+/* line 2118, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+input[type="checkbox"] + label:before {
+  border-radius: 0;
+}
+
+/* line 2122, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+input[type="radio"] + label:before {
+  border-radius: 100%;
+}
+
+/* line 2126, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+::-webkit-input-placeholder {
+  color: #c4e5d3 !important;
+  opacity: 1.0;
+}
+
+/* line 2131, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+:-moz-placeholder {
+  color: #c4e5d3 !important;
+  opacity: 1.0;
+}
+
+/* line 2136, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+::-moz-placeholder {
+  color: #c4e5d3 !important;
+  opacity: 1.0;
+}
+
+/* line 2141, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+:-ms-input-placeholder {
+  color: #c4e5d3 !important;
+  opacity: 1.0;
+}
+
+/* line 2146, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+.formerize-placeholder {
+  color: #c4e5d3 !important;
+  opacity: 1.0;
+}
+
+/* Box */
+/* line 2153, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+.box {
+  border: solid 1px #dbdbdb;
+  margin-bottom: 2em;
+  padding: 1.5em;
+}
+
+/* line 2159, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+.box > :last-child,
+.box > :last-child > :last-child,
+.box > :last-child > :last-child > :last-child {
+  margin-bottom: 0;
+}
+
+/* line 2165, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+.box.alt {
+  border: 0;
+  border-radius: 0;
+  padding: 0;
+}
+
+/* line 2171, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+.box.person {
+  border: solid 1px #8dcca9;
+  padding: 3em 1.5em;
+}
+
+/* line 2176, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+.box.person h3 {
+  margin: 0;
+}
+
+/* line 2180, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+.box.person .image {
+  margin-bottom: 1em;
+}
+
+/* line 2184, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+.box.person .image img {
+  max-width: 100%;
+}
+
+/* Icon */
+/* line 2190, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+.icon {
+  text-decoration: none;
+  border-bottom: none;
+  position: relative;
+}
+
+/* line 2196, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+.icon:before {
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-family: FontAwesome;
+  font-style: normal;
+  font-weight: normal;
+  text-transform: none !important;
+}
+
+/* line 2205, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+.icon > .label {
+  display: none;
+}
+
+/* Image */
+/* line 2211, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+.image {
+  border-radius: 0;
+  border: 0;
+  display: inline-block;
+  position: relative;
+}
+
+/* line 2218, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+.image img {
+  border-radius: 0;
+  display: block;
+}
+
+/* line 2223, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+.image.left, .image.right {
+  max-width: 40%;
+}
+
+/* line 2227, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+.image.left img, .image.right img {
+  width: 100%;
+}
+
+/* line 2231, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+.image.round img {
+  border-radius: 100%;
+}
+
+/* line 2235, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+.image.left {
+  float: left;
+  padding: 0 1.5em 1em 0;
+  top: 0.25em;
+}
+
+/* line 2241, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+.image.right {
+  float: right;
+  padding: 0 0 1em 1.5em;
+  top: 0.25em;
+}
+
+/* line 2247, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+.image.fit {
+  display: block;
+  margin: 0 0 2em 0;
+  width: 100%;
+}
+
+/* line 2253, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+.image.fit img {
+  width: 100%;
+}
+
+/* line 2257, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+.image.main {
+  display: block;
+  margin: 0 0 3em 0;
+  width: 100%;
+}
+
+/* line 2263, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+.image.main img {
+  width: 100%;
+}
+
+/* List */
+/* line 2269, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+ol {
+  list-style: decimal;
+  margin: 0 0 2em 0;
+  padding-left: 1.25em;
+}
+
+/* line 2275, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+ol li {
+  padding-left: 0.25em;
+}
+
+/* line 2279, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+ul {
+  list-style: disc;
+  margin: 0 0 2em 0;
+  padding-left: 1em;
+}
+
+/* line 2285, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+ul li {
+  padding-left: 0.5em;
+}
+
+/* line 2289, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+ul.alt {
+  list-style: none;
+  padding-left: 0;
+}
+
+/* line 2294, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+ul.alt li {
+  border-top: solid 1px #dbdbdb;
+  padding: 0.5em 0;
+}
+
+/* line 2299, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+ul.alt li:first-child {
+  border-top: 0;
+  padding-top: 0;
+}
+
+/* line 2304, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+ul.alt.dark li {
+  border-top: solid 1px rgba(0, 0, 0, 0.25);
+}
+
+/* line 2308, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+ul.icons {
+  cursor: default;
+  list-style: none;
+  padding-left: 0;
+}
+
+/* line 2314, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+ul.icons li {
+  display: inline-block;
+  padding: 0 1em 0 0;
+}
+
+/* line 2319, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+ul.icons li:last-child {
+  padding-right: 0;
+}
+
+/* line 2323, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+ul.icons li .icon:before {
+  font-size: 2em;
+}
+
+/* line 2327, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+ul.actions {
+  cursor: default;
+  list-style: none;
+  padding-left: 0;
+}
+
+/* line 2333, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+ul.actions li {
+  display: inline-block;
+  padding: 0 1em 0 0;
+  vertical-align: middle;
+}
+
+/* line 2339, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+ul.actions li:last-child {
+  padding-right: 0;
+}
+
+/* line 2343, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+ul.actions.small li {
+  padding: 0 0.5em 0 0;
+}
+
+/* line 2347, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+ul.actions.vertical li {
+  display: block;
+  padding: 1em 0 0 0;
+}
+
+/* line 2352, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+ul.actions.vertical li:first-child {
+  padding-top: 0;
+}
+
+/* line 2356, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+ul.actions.vertical li > * {
+  margin-bottom: 0;
+}
+
+/* line 2360, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+ul.actions.vertical.small li {
+  padding: 0.5em 0 0 0;
+}
+
+/* line 2364, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+ul.actions.vertical.small li:first-child {
+  padding-top: 0;
+}
+
+/* line 2368, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+ul.actions.fit {
+  display: table;
+  margin-left: -1em;
+  padding: 0;
+  table-layout: fixed;
+  width: calc(100% + 1em);
+}
+
+/* line 2376, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+ul.actions.fit li {
+  display: table-cell;
+  padding: 0 0 0 1em;
+}
+
+/* line 2381, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+ul.actions.fit li > * {
+  margin-bottom: 0;
+}
+
+/* line 2385, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+ul.actions.fit.small {
+  margin-left: -0.5em;
+  width: calc(100% + 0.5em);
+}
+
+/* line 2390, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+ul.actions.fit.small li {
+  padding: 0 0 0 0.5em;
+}
+
+@media screen and (max-width: 480px) {
+  /* line 2396, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+  ul.actions {
+    margin: 0 0 2em 0;
+  }
+
+  /* line 2400, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+  ul.actions li {
+    padding: 1em 0 0 0;
+    display: block;
+    text-align: center;
+    width: 100%;
+  }
+
+  /* line 2407, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+  ul.actions li:first-child {
+    padding-top: 0;
+  }
+
+  /* line 2411, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+  ul.actions li > * {
+    width: 100%;
+    margin: 0 !important;
+  }
+
+  /* line 2416, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+  ul.actions li > *.icon:before {
+    margin-left: -2em;
+  }
+
+  /* line 2420, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+  ul.actions.small li {
+    padding: 0.5em 0 0 0;
+  }
+
+  /* line 2424, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+  ul.actions.small li:first-child {
+    padding-top: 0;
+  }
+}
+/* line 2430, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+dl {
+  margin: 0 0 2em 0;
+}
+
+/* line 2434, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+dl dt {
+  display: block;
+  font-weight: 600;
+  margin: 0 0 1em 0;
+}
+
+/* line 2440, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+dl dd {
+  margin-left: 2em;
+}
+
+/* Table */
+/* line 2446, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+.table-wrapper {
+  -webkit-overflow-scrolling: touch;
+  overflow-x: auto;
+}
+
+/* line 2451, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+table {
+  margin: 0 0 2em 0;
+  width: 100%;
+}
+
+/* line 2456, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+table tbody tr {
+  border: solid 1px #dbdbdb;
+  border-left: 0;
+  border-right: 0;
+}
+
+/* line 2462, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+table tbody tr:nth-child(2n + 1) {
+  background-color: rgba(144, 144, 144, 0.075);
+}
+
+/* line 2466, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+table td {
+  padding: 0.75em 0.75em;
+}
+
+/* line 2470, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+table th {
+  color: #555;
+  font-size: 0.9em;
+  font-weight: 600;
+  padding: 0 0.75em 0.75em 0.75em;
+  text-align: left;
+}
+
+/* line 2478, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+table thead {
+  border-bottom: solid 2px #dbdbdb;
+}
+
+/* line 2482, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+table tfoot {
+  border-top: solid 2px #dbdbdb;
+}
+
+/* line 2486, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+table.alt {
+  border-collapse: separate;
+}
+
+/* line 2490, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+table.alt tbody tr td {
+  border: solid 1px #dbdbdb;
+  border-left-width: 0;
+  border-top-width: 0;
+}
+
+/* line 2496, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+table.alt tbody tr td:first-child {
+  border-left-width: 1px;
+}
+
+/* line 2500, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+table.alt tbody tr:first-child td {
+  border-top-width: 1px;
+}
+
+/* line 2504, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+table.alt thead {
+  border-bottom: 0;
+}
+
+/* line 2508, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+table.alt tfoot {
+  border-top: 0;
+}
+
+/* Button */
+/* line 2514, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+input[type="submit"],
+input[type="reset"],
+input[type="button"],
+button,
+.button {
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  -ms-appearance: none;
+  appearance: none;
+  -moz-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+  -webkit-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+  -ms-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+  transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+  background-color: transparent;
+  box-shadow: inset 0 0 0 3px #6cc091;
+  color: #6cc091 !important;
+  border-radius: 30px;
+  border: 0;
+  cursor: pointer;
+  display: inline-block;
+  font-size: .75em;
+  font-weight: 400;
+  height: 3.75em;
+  line-height: 3.85em;
+  letter-spacing: 2px;
+  padding: 0 4em;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  white-space: nowrap;
+}
+
+/* line 2546, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+input[type="submit"]:hover,
+input[type="reset"]:hover,
+input[type="button"]:hover,
+button:hover,
+.button:hover {
+  background-color: rgba(108, 192, 145, 0.15);
+}
+
+/* line 2554, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+input[type="submit"]:active,
+input[type="reset"]:active,
+input[type="button"]:active,
+button:active,
+.button:active {
+  background-color: rgba(108, 192, 145, 0.15);
+}
+
+/* line 2562, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+input[type="submit"].icon,
+input[type="reset"].icon,
+input[type="button"].icon,
+button.icon,
+.button.icon {
+  padding-left: 1.35em;
+}
+
+/* line 2570, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+input[type="submit"].icon:before,
+input[type="reset"].icon:before,
+input[type="button"].icon:before,
+button.icon:before,
+.button.icon:before {
+  margin-right: 0.5em;
+}
+
+/* line 2578, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+input[type="submit"].fit,
+input[type="reset"].fit,
+input[type="button"].fit,
+button.fit,
+.button.fit {
+  display: block;
+  margin: 0 0 1em 0;
+  width: 100%;
+}
+
+/* line 2588, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+input[type="submit"].small,
+input[type="reset"].small,
+input[type="button"].small,
+button.small,
+.button.small {
+  font-size: 0.8em;
+}
+
+/* line 2596, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+input[type="submit"].big,
+input[type="reset"].big,
+input[type="button"].big,
+button.big,
+.button.big {
+  font-size: 1.35em;
+}
+
+/* line 2604, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+input[type="submit"].alt,
+input[type="reset"].alt,
+input[type="button"].alt,
+button.alt,
+.button.alt {
+  background-color: transparent;
+  box-shadow: inset 0 0 0 3px #FFF;
+  color: #fff !important;
+}
+
+/* line 2614, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+input[type="submit"].alt:hover,
+input[type="reset"].alt:hover,
+input[type="button"].alt:hover,
+button.alt:hover,
+.button.alt:hover {
+  background-color: #7ec89e;
+}
+
+/* line 2622, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+input[type="submit"].alt:active,
+input[type="reset"].alt:active,
+input[type="button"].alt:active,
+button.alt:active,
+.button.alt:active {
+  background-color: #7ec89e;
+}
+
+/* line 2630, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+input[type="submit"].alt.icon:before,
+input[type="reset"].alt.icon:before,
+input[type="button"].alt.icon:before,
+button.alt.icon:before,
+.button.alt.icon:before {
+  color: #bbb;
+}
+
+/* line 2638, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+input[type="submit"].special,
+input[type="reset"].special,
+input[type="button"].special,
+button.special,
+.button.special {
+  background-color: #6cc091;
+  color: #ffffff !important;
+}
+
+/* line 2647, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+input[type="submit"].special:hover,
+input[type="reset"].special:hover,
+input[type="button"].special:hover,
+button.special:hover,
+.button.special:hover {
+  background-color: #7ec89e;
+}
+
+/* line 2655, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+input[type="submit"].special:active,
+input[type="reset"].special:active,
+input[type="button"].special:active,
+button.special:active,
+.button.special:active {
+  background-color: #5ab884;
+}
+
+/* line 2663, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+input[type="submit"].disabled, input[type="submit"]:disabled,
+input[type="reset"].disabled,
+input[type="reset"]:disabled,
+input[type="button"].disabled,
+input[type="button"]:disabled,
+button.disabled,
+button:disabled,
+.button.disabled,
+.button:disabled {
+  background-color: #9a9a9a !important;
+  box-shadow: inset 0 -0.15em 0 0 rgba(0, 0, 0, 0.15);
+  color: #fff !important;
+  cursor: default;
+  opacity: 0.25;
+}
+
+@media screen and (max-width: 480px) {
+  /* line 2681, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+  input[type="submit"],
+  input[type="reset"],
+  input[type="button"],
+  button,
+  .button {
+    padding: 0;
+    width: 100%;
+  }
+}
+/* Header */
+/* line 2694, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+.subpage {
+  padding-top: 44px;
+}
+
+/* line 2698, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+.subpage #header {
+  background: #6cc091;
+  top: 0;
+  height: 44px;
+  line-height: 44px;
+  position: fixed;
+}
+
+/* line 2706, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+#header {
+  color: #fff;
+  cursor: default;
+  height: 3.25em;
+  left: 0;
+  line-height: 3.25em;
+  position: absolute;
+  text-align: right;
+  top: 2em;
+  width: 100%;
+  z-index: 10001;
+}
+
+/* line 2719, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+#header .inner {
+  margin: 0 auto;
+  position: relative;
+}
+
+/* line 2724, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+#header .logo {
+  color: #ffffff;
+  display: inline-block;
+  font-weight: 400;
+  height: inherit;
+  left: 0;
+  line-height: inherit;
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  top: 0;
+  font-size: 1em;
+}
+
+/* line 2738, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+#header .logo strong {
+  color: #ffffff;
+  font-weight: 600;
+}
+
+/* line 2743, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+#header a {
+  -moz-transition: color 0.2s ease-in-out;
+  -webkit-transition: color 0.2s ease-in-out;
+  -ms-transition: color 0.2s ease-in-out;
+  transition: color 0.2s ease-in-out;
+  display: inline-block;
+  padding: 0 0.75em;
+  color: inherit;
+  text-decoration: none;
+  font-size: 1em;
+}
+
+/* line 2755, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+#header a:hover {
+  color: #ffffff;
+}
+
+/* line 2759, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+#header a:last-child {
+  padding-right: 0;
+}
+
+/* line 2763, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+#header a.navPanelToggle {
+  display: none;
+  text-decoration: none;
+  height: 4em;
+  width: 4em;
+  z-index: 10003;
+}
+
+/* line 2771, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+#header a.navPanelToggle .fa {
+  font-size: 1.25em;
+}
+
+@media screen and (max-width: 980px) {
+  /* line 2777, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+  #header a.navPanelToggle {
+    display: inline-block;
+  }
+}
+@media screen and (max-width: 736px) {
+  /* line 2785, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+  #header a {
+    padding: 0 0.5em;
+  }
+}
+@media screen and (max-width: 980px) {
+  /* line 2793, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+  #header {
+    top: 1em;
+  }
+}
+@media screen and (max-width: 736px) {
+  /* line 2801, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+  #header {
+    top: .5em;
+  }
+}
+@media screen and (max-width: 480px) {
+  /* line 2809, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+  #header {
+    font-size: .9em;
+  }
+}
+/* Nav */
+@media screen and (max-width: 980px) {
+  /* line 2819, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+  #nav {
+    display: none;
+  }
+}
+/* line 2825, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+#navPanel {
+  -moz-transform: translatex(20em);
+  -webkit-transform: translatex(20em);
+  -ms-transform: translatex(20em);
+  transform: translatex(20em);
+  -moz-transition: -moz-transform 0.2s ease-in-out, visibility 0.2s ease-in-out;
+  -webkit-transition: -webkit-transform 0.2s ease-in-out, visibility 0.2s ease-in-out;
+  -ms-transition: -ms-transform 0.2s ease-in-out, visibility 0.2s ease-in-out;
+  transition: transform 0.2s ease-in-out, visibility 0.2s ease-in-out;
+  -webkit-overflow-scrolling: touch;
+  visibility: hidden;
+  overflow-y: auto;
+  position: fixed;
+  right: 0;
+  top: 0;
+  background: #6cc091;
+  color: #daefe3;
+  height: 100%;
+  max-width: 80%;
+  width: 20em;
+  padding: 0.5em 1.25em;
+  z-index: 10010;
+}
+
+/* line 2849, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+#navPanel.visible {
+  -moz-transform: translatex(0);
+  -webkit-transform: translatex(0);
+  -ms-transform: translatex(0);
+  transform: translatex(0);
+  box-shadow: 0 0 1.5em 0 rgba(0, 0, 0, 0.2);
+  visibility: visible;
+}
+
+/* line 2858, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+#navPanel a:not(.close) {
+  border-top: solid 1px #8dcca9;
+  color: #daefe3;
+  font-weight: 600;
+  display: block;
+  padding: 0.75em 0;
+  text-decoration: none;
+  font-weight: 400;
+}
+
+/* line 2868, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+#navPanel a:not(.close):first-child {
+  border: none;
+}
+
+/* line 2872, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+#navPanel .close {
+  text-decoration: none;
+  -moz-transition: color 0.2s ease-in-out;
+  -webkit-transition: color 0.2s ease-in-out;
+  -ms-transition: color 0.2s ease-in-out;
+  transition: color 0.2s ease-in-out;
+  -webkit-tap-highlight-color: transparent;
+  border: 0;
+  color: #daefe3;
+  cursor: pointer;
+  display: block;
+  height: 4em;
+  padding-right: 1.25em;
+  position: absolute;
+  right: 0;
+  text-align: right;
+  top: 0;
+  vertical-align: middle;
+  width: 5em;
+}
+
+/* line 2893, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+#navPanel .close:before {
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-family: FontAwesome;
+  font-style: normal;
+  font-weight: normal;
+  text-transform: none !important;
+  content: '\f00d';
+  width: 3em;
+  height: 3em;
+  line-height: 3em;
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0;
+  text-align: center;
+}
+
+/* line 2911, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+#navPanel .close:hover {
+  color: inherit;
+}
+
+/* Banner */
+/* line 2917, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+#banner {
+  padding: 8em 0 9em 0;
+  background-size: cover;
+  background-position: bottom;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  text-align: center;
+  position: relative;
+}
+
+/* line 2927, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+#banner:before {
+  content: '';
+  background: rgba(75, 75, 93, 0.85);
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+}
+
+/* line 2937, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+#banner .inner {
+  border-top: 2px solid rgba(255, 255, 255, 0.2);
+  position: relative;
+  z-index: 10005;
+  padding-top: 8em;
+}
+
+/* line 2944, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+#banner h1 {
+  font-size: 3.5em;
+  font-weight: 400;
+  color: #fff;
+  line-height: 1em;
+  margin: 0 0 1em 0;
+  padding: 0;
+}
+
+/* line 2953, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+#banner h3 {
+  font-weight: 400;
+  color: #fff;
+  margin: 0;
+  font-size: 1.5em;
+}
+
+/* line 2960, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+#banner .icon {
+  color: #6cc091;
+  font-size: 2em;
+}
+
+/* line 2965, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+#banner p {
+  font-size: 1em;
+  color: rgba(255, 255, 255, 0.55);
+  margin-bottom: 1.75em;
+}
+
+/* line 2971, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+#banner .flex {
+  -ms-flex-pack: center;
+  -moz-justify-content: center;
+  -webkit-justify-content: center;
+  -ms-justify-content: center;
+  justify-content: center;
+  text-align: center;
+  margin: 0 auto 4em auto;
+}
+
+/* line 2981, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+#tiny_url_orginal_url {
+  color: #000000;
+  background-color: #ffffff;
+}
+
+/* line 2986, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+.easy-url-span {
+  font-size: 22px;
+}
+
+/* line 2990, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+.text-for-errors {
+  color: #a94442;
+}
+
+/* line 2994, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+.notice-div {
+  text-align: center;
+  font-size: 20px;
+}
+
+/* line 2999, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+.alert {
+  padding: 0px;
+}
+
+/* line 3003, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+#banner .flex div {
+  border-right: 2px solid rgba(255, 255, 255, 0.2);
+  padding: 0 8em;
+}
+
+/* line 3008, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+#banner .flex div:last-child {
+  border: none;
+  padding-right: 0;
+}
+
+/* line 3013, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+#banner .flex div:first-child {
+  padding-left: 0;
+}
+
+/* line 3017, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+#banner .flex div p {
+  margin: 0;
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+  /* line 3023, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+  #banner {
+    background-attachment: scroll;
+  }
+}
+@media screen and (max-width: 1680px) {
+  /* line 3031, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+  #banner .flex div {
+    padding: 0 6em;
+  }
+}
+@media screen and (max-width: 1280px) {
+  /* line 3039, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+  #banner {
+    padding: 7em 0 6em 0;
+  }
+
+  /* line 3043, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+  #banner .inner {
+    padding-top: 6em;
+  }
+
+  /* line 3047, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+  #banner h1 {
+    font-size: 3em;
+  }
+
+  /* line 3051, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+  #banner h3 {
+    font-size: 1.25em;
+  }
+
+  /* line 3055, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+  #banner .flex div {
+    padding: 0 3em;
+  }
+}
+@media screen and (max-width: 980px) {
+  /* line 3063, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+  #banner {
+    background-attachment: scroll;
+    padding: 5em 0 4em 0;
+  }
+
+  /* line 3068, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+  #banner .inner {
+    padding-top: 4em;
+  }
+
+  /* line 3072, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+  #banner h1 {
+    font-size: 2.5em;
+  }
+
+  /* line 3076, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+  #banner h3 {
+    font-size: 1.25em;
+  }
+
+  /* line 3080, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+  #banner .flex div {
+    font-size: .85em;
+    padding: 0 1.5em;
+  }
+}
+@media screen and (max-width: 736px) {
+  /* line 3089, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+  #banner {
+    padding: 4em 0 3em 0;
+  }
+
+  /* line 3093, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+  #banner .inner {
+    padding-top: 3em;
+  }
+
+  /* line 3097, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+  #banner h1 {
+    font-size: 2em;
+  }
+
+  /* line 3101, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+  #banner h3 {
+    font-size: 1.25em;
+  }
+
+  /* line 3105, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+  #banner .flex {
+    -moz-flex-direction: column;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    margin: 0 auto 2em auto;
+  }
+
+  /* line 3113, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+  #banner .flex div {
+    font-size: .85em;
+    padding: 0;
+    border: none;
+    margin-bottom: 1em;
+  }
+}
+@media screen and (max-width: 480px) {
+  /* line 3124, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+  #banner h1 {
+    font-size: 1.5em;
+  }
+}
+/* Footer */
+/* line 3132, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+#footer {
+  padding: 6em 0;
+  background: #6cc091;
+  color: #fff;
+  text-align: center;
+}
+
+/* line 3139, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+#footer h3 {
+  color: #FFF;
+  margin-bottom: 2em !important;
+}
+
+/* line 3144, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+#footer label {
+  text-align: left;
+  color: #FFF;
+}
+
+/* line 3149, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+#footer .copyright {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 0.8em;
+  margin: 0 0 2em 0;
+  padding: 0;
+}
+
+/* line 3156, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+#footer .copyright a {
+  color: rgba(255, 255, 255, 0.5);
+  text-decoration: none;
+}
+
+/* line 3161, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+#footer .copyright a:hover {
+  color: #FFF;
+}
+
+@media screen and (max-width: 980px) {
+  /* line 3167, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+  #footer {
+    padding: 4em 0;
+  }
+}
+@media screen and (max-width: 736px) {
+  /* line 3175, /var/www/html/ror_projects/easy_url/app/assets/stylesheets/main.scss */
+  #footer {
+    padding: 3em 0;
+  }
+}
