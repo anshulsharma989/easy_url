@@ -41,6 +41,7 @@ class TinyUrlsController < ApplicationController
     #begin
     path_after_base_url = request.original_fullpath
     @tiny_url = TinyUrl.get_tiny_url_by_path(path_after_base_url)
+    @tiny_url.set_last_hit
     redirect_to @tiny_url.orginal_url
     # rescue Exception => e
     #   flash[:danger] = "Somthing wrong! Url not found"
