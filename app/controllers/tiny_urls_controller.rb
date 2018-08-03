@@ -4,10 +4,12 @@ class TinyUrlsController < ApplicationController
   layout "tiny_url"
   include CodeDecodeUrlModule
 
+  # method to show home view
   def home
     @tiny_url = TinyUrl.new
   end
 
+  # method to generate short url by decoding id
   def get_tiny_url
     @tiny_url = TinyUrl.new
     begin
@@ -15,6 +17,8 @@ class TinyUrlsController < ApplicationController
       original_url = tiny_url_params[:orginal_url]
       @tiny_url.orginal_url = original_url
       @tiny_url.system_info = request.remote_ip
+
+      #TODO this code can be imroved
       if @tiny_url.save!
         short_url = genrate_short_url(@tiny_url.id)
         base_url = get_base_url
@@ -38,6 +42,7 @@ class TinyUrlsController < ApplicationController
     end
   end
 
+  #method to orginal url by decoding code to id
   def get_orginal_url
     begin
       decoded_url = get_decoded_url
@@ -52,6 +57,7 @@ class TinyUrlsController < ApplicationController
   end
 
   private
+
   # Use callbacks to share common setup or constraints between actions.
   def set_tiny_url
     @tiny_url = TinyUrl.find(params[:id])
