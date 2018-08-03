@@ -38,14 +38,14 @@ class TinyUrlsController < ApplicationController
 
   #method to orginal url by decoding code to id
   def get_orginal_url
-    begin
-      path_after_base_url = request.original_fullpath
-      @tiny_url = TinyUrl.get_tiny_url_by_path(path_after_base_url)
-      redirect_to @tiny_url.orginal_url
-    rescue Exception => e
-      flash[:danger] = "Somthing wrong! Url not found"
-      redirect_to home_path
-    end
+    #begin
+    path_after_base_url = request.original_fullpath
+    @tiny_url = TinyUrl.get_tiny_url_by_path(path_after_base_url)
+    redirect_to @tiny_url.orginal_url
+    # rescue Exception => e
+    #   flash[:danger] = "Somthing wrong! Url not found"
+    #   redirect_to home_path
+    # end
 
   end
 
